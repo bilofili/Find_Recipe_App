@@ -36,7 +36,7 @@ function App() {
     <div className="App">
 
       <div className="container">
-        <video autoPlay muted loop>
+        <video autoPlay loop muted playsInline preload='yes'>
           <source src={video} type="video/mp4" />
         </video>
           <h1>Find a Recipe</h1>
